@@ -18,7 +18,7 @@ const Box = (props) => {
       {' '}
       <h1>{props.title}</h1>
       <img
-        className="item-img"
+        className={`item-img ${!props.item ? 'initial' : ''}`}
         src={props.item ? props.item.img : initialImg}
         alt={props.title}
       />

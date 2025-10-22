@@ -46,7 +46,8 @@ body {
   transform: rotate(-90deg);
 }
 
-.item-img[src='/src/assets/initial.png'] {
+.initial {
+  width: 30vw !important;
   transform: none !important;
 }
 
