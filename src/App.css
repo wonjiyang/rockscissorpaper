@@ -10,7 +10,6 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-color: #f0f0f0;
 }
 
 .main {
@@ -79,6 +78,7 @@ body {
 .btn {
   background-size: contain;
   background-repeat: no-repeat;
+  background-color: #fff;
   border: none;
   width: 4vw;
   height: 14vh;
