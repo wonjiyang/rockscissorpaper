@@ -1,6 +1,5 @@
 body {
   height: 100vh;
-  background-color: #f0f0f0;
   overflow: hidden;
 }
 
@@ -11,6 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  background-color: #f0f0f0;
 }
 
 .main {
